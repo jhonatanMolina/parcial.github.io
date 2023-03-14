@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Playfair+Display&family=Roboto+Mono:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.HeaderP {
+    width: 100%;
+    display: flex;
+    margin: 1px auto;
+}
+
+header {
+    width: 100%;
+    min-height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.redessociales {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+
+}
+
+.redessociales img {
+    height: 25px;
+    padding-right: 30px;
+
+}
+
+.parte1 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.parr1t{
+font-family: 'Hind Vadodara', sans-serif;
+font-weight: 700;
+font-size: 87px;
+line-height: 99.8%;
+letter-spacing: -0.01em;
+margin-bottom: 0px;
+color:#331B3B;
+
+}
+.parr2s{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-size: 87px;
+    line-height: 99.8%;
+    letter-spacing: -0.01em;
+    margin-top: 0px;
+    color:#331B3B;
+    
+}
+.parr3text{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    letter-spacing: -0.01em;
+    color:#331B3B;
+    
+}
+
+.cont1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.cont1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.buttong{
+font-family: 'Hind Vadodara', sans-serif;
+width: 207px;
+height: 66px;
+left: 50px;
+top: 634px;
+background: #331B3B;
+border-radius: 10px;
+display:flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+font-weight: 700;
+color: white
+}
+
+.titulo1 {
+    display: flex;
+    width: 55%;
+    font-size: 250%;
+    text-align: center;
+    flex-direction: column;
+    color: #331B3B;
+    align-items: center;
+    margin: auto;
+}
+
+.subtitulo {
+    font-size: 80px;
+    display: grid;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #331B3B;
+
+    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+
+}
+
+.texto {
+    font-family: 'Hind Vadodara';
+    display: flex;
+    padding: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 146.3%;
+    letter-spacing: 0.02em;
+    color: rgba(39, 4, 51, 0.66);
+}
+
+.boton1 {
+    background-color: #331B3B;
+    font-family: 'Hind Vadodara';
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 50px;
+
+}
+
+.parte2 {
+	display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+
+}
+
+.container-card {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    margin: 30px;
+    width: 300px;
+    height: 218px;
+    box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    margin-top: 120px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 22, 61);
+}
+
+.card img {
+    background-color: rgb(255, 195, 104);
+    padding: 7px 7px;
+    border-radius: 6px;
+}
+
+.card2 img {
+    background-color: rgb(243, 255, 136);
+    padding: 7px 7px;
+    border-radius: 6px;
+}
+
+.card3 img {
+    background-color: rgb(188, 236, 255);
+    padding: 7px 7px;
+    border-radius: 6px;
+}
+.containerOfCards{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.titulo {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #331B3B;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+}
+
+.parte3 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+
+.subtitulo2 {
+    font-size: 80px;
+    display: grid;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #331B3B;
+    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.boton2 {
+    background-color: #331B3B;
+    font-family: 'Hind Vadodara';
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.texto2 {
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 146.3%;
+    letter-spacing: 0.02em;
+    color: rgba(39, 4, 51, 0.66);
+}
+
+#titulo3{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #331B3B;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.subtitulo3{
+    display: flex;
+    width: 100%;
+    font-size: 250%;
+    text-align: left;
+    flex-direction: column;
+    color: #331B3B ;
+}
+
+.parte4{
+    display: flex;
+    padding: 50px;
+    padding-bottom: 130px;
+    padding-right: 130px;
+    width: 100%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    background-image: url(Rectangle\ 13.png);
+    background-repeat: no-repeat;
+    background-position: right;   
+}
+.container2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 22, 61); 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    align-content: center;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.boton3{
+    border-radius: 10px;
+    border: 2px solid rgb(61, 22, 61); ;
+}
+
+.parte5{
+    display: flex;
+    padding: 50px;
+    padding-bottom: 95px;
+    width: 80%;
+    margin: auto;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.titulo4{
+    display: flex;
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.container3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 470px;
+    height: 330px;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    color: #331B3B;  
+    
+}
+
+footer{
+    width: 100%;
+    background-image: url(Rectangle\ 39.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    padding-top: 50px;
+    padding-left: 20px;
+    
+    
+}
+.footer1{
+    width: 95%;
+}
+
+.boton4{
+    background-color:#FE9A22;
+    font-family: 'Hind Vadodara';
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+
+/* nav */
+
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    letter-spacing: 0.01em;
+    font-family: 'Hind Vadodara';
+    padding-right: 9px;
+    letter-spacing: 0.01em;
+    color: #331B3B;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-flex;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+li a.active, li a:hover{
+    background: yellow;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px){
+    .checkbtn{
+        display: flex;
+    }
+    ul{
+        position: fixed;
+        width: 90%;
+        height: 100vh;
+        background: white;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: yellow;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+
+@media (max-width: 700px) { 
+    .parte1 {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .parte2 {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+    }
+    .parte3 {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    footer{
+        width: auto;
+        background-image: url(Rectangle\ 39.png);
+        background-size: auto;
+        color: white;   
+    }
+    .parte4 {
+        display: grid;
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+}
